@@ -8,5 +8,9 @@ namespace FlightApp
 {
     public class AirPlane
     {
+        internal void Clean()
+        {
+            Console.WriteLine("Cleaning airplane");
+        }
     }
 }

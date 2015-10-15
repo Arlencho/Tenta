@@ -8,5 +8,11 @@ namespace FlightApp
 {
     public class ControlTower
     {
+        internal DateTime FindNextSlotForStrip(string strip)
+        {
+            Console.WriteLine("Finding slot for strip {0}", strip);
+            DateTime departure = DateTime.Now.AddMinutes(15);
+            return departure;
+        }
     }
 }

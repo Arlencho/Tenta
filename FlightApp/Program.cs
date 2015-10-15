@@ -10,6 +10,9 @@ namespace FlightApp
     {
         static void Main(string[] args)
         {
+            FlightFacade.PrepareForTakeoff("SAS1234", "WEST 1");
+
+            Console.ReadKey();
         }
     }
 }
