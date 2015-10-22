@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="d673303e-6b61-4584-b123-bccbae9e1895" name="RadioSystem" linkedPackageId="686023dd-a4d0-474f-951c-a2e03eee98db" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="39ead7b7-3a0a-499a-a4ac-3f0674ac3f05" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="88569ba5-3d87-47ca-bc12-b84c9e2a2417" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6f503ffa-8cc0-4854-be13-ee82212be171">
+          <propertyInstance Id="7b97f290-bf8a-4b56-805f-dab26e1c9add" name="BaseName">
+            <elementDefinition Id="3a05d41d-d09c-4ab7-9b2f-086861392d7a" />
+          </propertyInstance>
+          <elementDefinition Id="dabc5dd9-65c1-4035-8bf5-a9dfa7409d61" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c54461e0-e58c-484b-ac11-f13a36057d6d">
+          <propertyInstance Id="c33511ce-0c42-4bf8-9a4e-14a0d882bf2a" name="ClrAttributes">
+            <elementDefinition Id="4d0a9bd7-849d-4bf9-b029-51c67849bb64" />
+          </propertyInstance>
+          <elementDefinition Id="16d1c174-9384-455a-9ce9-d4b239eac258" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="63ecbaf6-f1f0-4aa9-8dea-9ead82f8b5e9">
+          <propertyInstance Id="b7494ffe-b8b6-4a68-b82c-e423091f67b0" name="Usings">
+            <elementDefinition Id="4868c768-f399-4275-beb6-fd0a8781f901" />
+          </propertyInstance>
+          <elementDefinition Id="10e97e22-9335-4916-a940-9e9622378627" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="0ed63be8-60e8-41c8-abba-c49ddf18c1d2" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="2f25c510-f698-48db-a8ee-57c9ee4f9347" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="9b83241f-9f31-47ed-b5cd-1079ba2de387">
+          <propertyInstance Id="356c3f71-73cf-48f0-b665-833fd16bac87" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="e822cb34-0b70-4453-9f86-3fba6c957a86" />
+          </propertyInstance>
+          <elementDefinition Id="378e94b4-54bc-4a29-bd5c-48f9255563db" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="a9056c15-c872-4039-b7fe-71a933256171">
+          <propertyInstance Id="77e0e25b-f49c-4b7b-ae51-5df1f9dc726e" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="485a526a-07ac-4a19-ac8c-27e3e77a0237" />
+          </propertyInstance>
+          <elementDefinition Id="7eea4c90-1c0b-423c-90d6-c6b306e75dfd" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cc1d40f0-0fcb-43f5-add5-c88bc62e259f">
+          <propertyInstance Id="2baa0cc2-8df6-4a29-8306-fabf6c5d97ff" name="ProjectPath" value="ClassTemplate=..\RadioSystemModelsLib\RadioSystemModelsLib.csproj|EnumTemplate=..\RadioSystemModelsLib\RadioSystemModelsLib.csproj|InterfaceTemplate=..\RadioSystemModelsLib\RadioSystemModelsLib.csproj|StructTemplate=..\RadioSystemModelsLib\RadioSystemModelsLib.csproj">
+            <elementDefinition Id="433b3693-7c9e-4c54-92ff-7c6393627021" />
+          </propertyInstance>
+          <elementDefinition Id="4e9cabf2-0048-49ab-8f25-2d2193fecb69" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e0e7a929-74e4-4dd2-8641-c855a834caea">
+          <propertyInstance Id="8214427e-371c-4eb9-8942-65f2bb95852b" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="3537a8a6-0bd8-48e2-915b-68808d1fafa1" />
+          </propertyInstance>
+          <elementDefinition Id="76bcd059-e471-408d-b14f-3c86c6628374" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d305428f-055e-45fd-a4f7-b691ebad5499">
+          <propertyInstance Id="8a027f0f-61da-44a2-8d15-9dee60d77be6" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="5b1770e0-890c-4ccf-bbd9-925ae67ab621" />
+          </propertyInstance>
+          <elementDefinition Id="f19cef15-1876-4637-a26e-1173085e7b83" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="542f9b10-02d6-4454-9ae1-54c966e16740">
+          <propertyInstance Id="11f52762-dc72-404a-83df-fb93789c0d7e" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="b5646863-1e77-4f6a-a32e-7be310f5c0cb" />
+          </propertyInstance>
+          <elementDefinition Id="983460ee-5a94-4864-b4a4-8c4ba96541e1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d75f5b43-e789-4eaa-8956-54566fbbaa78">
+          <propertyInstance Id="314d1311-8a34-4ce2-aba0-3df39deea47a" name="Parameters">
+            <elementDefinition Id="954e6144-bcdb-49b5-b681-b98a667241c8" />
+          </propertyInstance>
+          <elementDefinition Id="f4cafd9c-3364-40b9-8060-dee85c2708ed" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="f076bdcc-b3bc-4b66-89c3-f0e3872123ff">
+      <profileInstance Id="4e958ae2-6029-4c78-a0fa-ae300f7f04b3" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="855133a2-d7bf-4893-8a50-accb0a075d13">
+      <profileInstance Id="b8dcc402-2422-4d09-b0f8-c006a3139542" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a4d556a0-1eab-45e7-b9fa-10ed40e42892">
+      <profileInstance Id="5ec6bf88-04e2-43cc-91f0-a092a1bf2dad" name="CSharpProfile">
+        <elementDefinition Id="03c09dd9-3a3f-4c89-a8af-152dada531e9" />
+      </profileInstance>
+      <elementDefinition Id="bc3eeb8a-c69c-4f79-b93b-0fa4867036a9" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="056fd5e8-50a3-4977-b159-ca81045aac68">
+      <profileInstance Id="f457350f-e86d-4cc7-adbf-81c941f80ea7" name="TextTemplateBindings">
+        <elementDefinition Id="66704ac2-f092-455a-a51e-8972dfb1d3fd" />
+      </profileInstance>
+      <elementDefinition Id="6c78222c-a150-4da4-8494-ff4ba86fff34" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="f3dcd104-3f1a-4eb0-be1d-bb6c272d2c7c" name="RadioSystem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d0449ad1-5790-4a21-9ea6-9246e9f55a0a" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="afc458b4-a766-4ada-9fa6-300271daaa62" name="Listener" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="10320dc7-8462-4c58-add8-f487c969add7" />
+        <targetEnds>
+          <association Id="f0ec2dd2-ca27-477a-ba16-2c23cdbed614" isDerived="false" sourceEndRoleName="Listener" targetEndRoleName="Listen to music" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="329508be-ffe9-4603-8316-593b6a01c680" LastKnownName="Listen to music" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ecfb6211-a851-40ae-a02f-1794750b7d61" name="Listener" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0c8dbc3b-e64b-4e95-bc3a-abf2b11446d7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="16c75055-9d47-43a4-a465-019ece2a45ce" name="Listen to music" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="33a93800-03ae-4036-8445-ac4c4b753e90" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e23da5e3-0d85-42ec-a399-0192ab81c540" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="4df56122-c7c8-4cf2-9e74-15ae5cc5e845" name="Broadcaser" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d7caeb3d-57af-4d50-9c44-3ec497d3b1db" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="329508be-ffe9-4603-8316-593b6a01c680" name="Listen to music" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e3644a9-32b0-430d-b063-54fb3c014009" />
+        <subjects>
+          <subsystemMoniker Id="f3dcd104-3f1a-4eb0-be1d-bb6c272d2c7c" LastKnownName="RadioSystem" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="686023dd-a4d0-474f-951c-a2e03eee98db" name="RadioSystemModels">
+    <elementDefinition Id="3f0ad4b4-27b9-4b64-a89b-d542cb65d0ba" />
+  </package>
+</useCaseModelRoot>
