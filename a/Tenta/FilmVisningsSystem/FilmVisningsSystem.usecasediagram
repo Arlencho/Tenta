@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="ef9e5bc2-388a-460c-b64b-96dbf2ad05e2" name="FilmVisningsSystem" linkedPackageId="b06f0e7b-4285-400a-a5d7-53c90de79e98" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="91316280-6ed5-464f-97b0-f3c2e21af4fc" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="2b7f5efd-9f5a-4f50-b73f-ec198d76e727" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ce257d69-2264-4ec7-b161-2039c5c5f3de">
+          <propertyInstance Id="9f69d368-0e47-4018-8112-0ea14e67f7a5" name="BaseName">
+            <elementDefinition Id="c16d58a5-ef4f-4408-b976-d0fadc52ec8c" />
+          </propertyInstance>
+          <elementDefinition Id="6daaec1a-8ced-4eea-a71e-4ed0f9cbff73" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8d1cb1ed-5b6f-4141-b6ee-80457452dfb4">
+          <propertyInstance Id="a948d803-4dbd-4bfb-9335-d279980eb83a" name="ClrAttributes">
+            <elementDefinition Id="a8aa98ea-ef13-4d31-9c7e-af1ea16fab9e" />
+          </propertyInstance>
+          <elementDefinition Id="bf1ffb3e-12e9-48bd-a1c0-4fea01d4dad3" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7e0e6599-e472-4c8b-a2e3-16696edce0b8">
+          <propertyInstance Id="4c3d7ae8-4f02-4497-a7ff-5377da99a536" name="Usings">
+            <elementDefinition Id="ab5d9270-5d08-43e1-a12d-0ba9bf71c606" />
+          </propertyInstance>
+          <elementDefinition Id="c5bbe903-3090-4b5f-9249-5f9f41e06a28" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="fd5cce9b-097d-4dc5-8464-4ce05a162e6e" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="a81e1f89-3d24-4482-aa3d-2d13e51b0724" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="86633953-f4ce-484b-829a-1ea7b8e3d75c">
+          <propertyInstance Id="8fa15b0c-63b1-4e95-9550-a7acc6d97a64" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="84119826-c835-4de9-a842-271ae0f9b493" />
+          </propertyInstance>
+          <elementDefinition Id="0017c374-0f58-4142-9d43-af69beaebcaf" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="212b7114-7b59-4761-9e4a-3e3df2702ed0">
+          <propertyInstance Id="f3a839e9-3224-4aef-b3ae-32fea840c144" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="da5e283e-8d19-46f2-a5a3-a248b034d6ab" />
+          </propertyInstance>
+          <elementDefinition Id="cfee272a-f144-4edf-9aa2-a38f219a591d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="161b0ffb-9d68-4763-865c-e2301b498905">
+          <propertyInstance Id="43a16fe9-db8b-411f-b7be-b3b94a553d39" name="ProjectPath" value="ClassTemplate=..\FilmVisningsSystemLib\FilmVisningsSystemLib.csproj|EnumTemplate=..\FilmVisningsSystemLib\FilmVisningsSystemLib.csproj|InterfaceTemplate=..\FilmVisningsSystemLib\FilmVisningsSystemLib.csproj|StructTemplate=..\FilmVisningsSystemLib\FilmVisningsSystemLib.csproj">
+            <elementDefinition Id="2f6641e8-3556-4e96-8a5f-5115bfe29e1b" />
+          </propertyInstance>
+          <elementDefinition Id="35dd1d0f-ce77-40b3-80de-df747f5c570d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d730f91e-da12-45db-88d9-bd32ed87eafe">
+          <propertyInstance Id="c5bba466-c852-4c9a-a7f4-66d1f8ed4068" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="3ca2f39c-f341-4546-9e1d-3a7f9fdf366a" />
+          </propertyInstance>
+          <elementDefinition Id="815dbfd9-0c5b-414b-ab9a-fdc35bbf79ed" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="7a365e22-081a-4f2c-9f8d-a1c9e82ffbad">
+          <propertyInstance Id="d7200a08-2763-4a2a-a2b1-ad02ac51edad" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="52a8f700-9aad-418f-a7d2-81db57dc58a1" />
+          </propertyInstance>
+          <elementDefinition Id="1cbcf6ac-7315-4219-b0d9-d1148a16c896" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b04a4376-23ba-4967-a76f-7c326df0896e">
+          <propertyInstance Id="20466f9d-4132-42d5-b203-a54953270647" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="16ed3c2b-61dd-48d4-9caa-ac8a226f90eb" />
+          </propertyInstance>
+          <elementDefinition Id="396e8f33-d6d9-4707-a27a-a5037c584e3b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1ac15d6c-a857-472c-aa97-81c7472011f6">
+          <propertyInstance Id="ced4017c-516b-4861-9904-ed091561a637" name="Parameters">
+            <elementDefinition Id="99638867-a490-4582-886a-8b2c61b8938a" />
+          </propertyInstance>
+          <elementDefinition Id="5c19df51-8947-4bdb-a9a7-a365d427dad1" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="96cff307-12bb-4b00-9c82-4ace2882b966">
+      <profileInstance Id="82e71a5b-4998-4460-ae40-83cd3fe1fff2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="04dd3fdb-e861-494c-9213-6560659e8926">
+      <profileInstance Id="17129dff-96f9-4fcd-8509-7a05b637ef55" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f4dcf8dc-5464-4021-8c57-535ed09440e5">
+      <profileInstance Id="04a36789-1c94-442c-821f-d238705232b9" name="CSharpProfile">
+        <elementDefinition Id="d4814ff4-2b29-4ba4-965b-14ab0a24ec3b" />
+      </profileInstance>
+      <elementDefinition Id="f65aef10-d6ed-4bca-92e4-c6faf19ceef2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="23a34749-8923-4fa8-8fc1-836e35fe6c46">
+      <profileInstance Id="0ca6b2aa-7ed0-4f1c-85af-874d55e5bc65" name="TextTemplateBindings">
+        <elementDefinition Id="4b2c34f1-ab30-433e-b2d7-0e20cc9529ff" />
+      </profileInstance>
+      <elementDefinition Id="76d538e7-5a5b-4fcb-a019-8379008d9ce6" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="fe536205-8a33-4037-ab1a-b09863506184" name="MovieSystem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2b8a3743-0cad-4d43-b35b-fb091e0d4f37" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3cb1d78f-27e3-49ba-8d77-5ed6bf0904fa" name="consumer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c78230e1-e9dc-410b-87a5-9d043e39c217" />
+        <targetEnds>
+          <association Id="ffd2f5af-ac21-46c0-85f5-30aff73319ff" isDerived="false" sourceEndRoleName="watchers" targetEndRoleName="Watch TV" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="85307ffd-f4af-42a3-8db9-c824d1f22e64" LastKnownName="view movie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cf1705b6-20f4-447f-aaa7-cc39e6c71b5f" name="watchers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="613e5cbe-f775-4a86-8472-d6942cf7227c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ec4f916-345b-4d56-81ed-c5004ecd5cda" name="Watch TV" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9495ae69-7113-477c-a22a-2ba8447f76e1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8e843227-81c3-45d8-be31-c7080701c452" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="101b9b20-55a4-431e-999b-e4357fc6e241" name="Producer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d0229f97-2447-4ba8-9449-c752ddaf5cf6" />
+        <targetEnds>
+          <association Id="0fd47234-0ade-457c-9851-fa8262371a22" isDerived="false" sourceEndRoleName="Sender" targetEndRoleName="Play Film" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7b4cf0bf-6d7c-472e-ba91-ad7137c93efc" LastKnownName="upload movie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9e6f1511-8120-4d60-9a54-2ddb6730c0f7" name="Sender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cce5ad3c-bf23-4fc7-9d97-b24feedaa3b5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3fad9619-a767-4d2d-bc3f-3fb1fc4c4f1c" name="Play Film" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0cc80b0e-18dd-4764-859e-f52e773e94b3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a79aee51-0338-4586-8253-776d7cc2fe49" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="85307ffd-f4af-42a3-8db9-c824d1f22e64" name="view movie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ad978c5d-ae27-4384-bbac-479490c0c90a" />
+        <subjects>
+          <subsystemMoniker Id="fe536205-8a33-4037-ab1a-b09863506184" LastKnownName="MovieSystem" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7b4cf0bf-6d7c-472e-ba91-ad7137c93efc" name="upload movie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dad6ba9a-d28c-4921-976f-06626c798a88" />
+        <subjects>
+          <subsystemMoniker Id="fe536205-8a33-4037-ab1a-b09863506184" LastKnownName="MovieSystem" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="b06f0e7b-4285-400a-a5d7-53c90de79e98" name="FilmVisningsSystem">
+    <elementDefinition Id="79fca84c-a33b-4faa-bb36-5d1e8bf5ab4d" />
+  </package>
+</useCaseModelRoot>
