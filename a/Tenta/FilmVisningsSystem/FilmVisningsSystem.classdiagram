@@ -169,6 +169,9 @@
               <operationHasOwnedParameters>
                 <parameter Id="d0ea91dc-9c9b-42ca-aba9-2665309245a7" name="movieName" direction="In" isUnique="false">
                   <elementDefinition Id="1f4b5aac-e104-41e9-b07c-fae2a6bfd843" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="657145c9-dc7b-4d55-a015-04e005a87ded" LastKnownName="string" />
+                  </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
@@ -178,6 +181,43 @@
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
       <class Id="0314bb50-7ce5-4e98-8b5c-7afd6b445de6" name="Netflix" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="0aa4eff0-bfa9-4ee1-b294-aef84a95a661" name="class" profile="CSharpProfile">
+            <elementDefinition Id="c65e4cdc-6559-4e18-9157-1766699904d2" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="37c5f818-9076-42a1-b10f-ee766573a97c">
+                <propertyInstance Id="2e23ea15-6142-4e53-9893-bdadb732e576" name="ClrAttributes">
+                  <elementDefinition Id="b4a1cb30-8d03-4997-b452-f1ba5aa62853" />
+                </propertyInstance>
+                <elementDefinition Id="489ed1a1-06ba-4a05-94f7-8c9cfbdbaa3c" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="054433fb-d5d5-49c1-9f44-0898e5a866dc">
+                <propertyInstance Id="e032dbd1-8d64-4d94-b3dc-4073fad33413" name="IsPartial" value="false">
+                  <elementDefinition Id="e3d7e13c-3538-4429-970c-9eac3ecce50b" />
+                </propertyInstance>
+                <elementDefinition Id="c1d2644e-126d-4c4f-9874-c595b0ac6797" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="936f49b3-7073-4206-b826-8008f28cebd9">
+                <propertyInstance Id="9c6fdbc0-0618-49ec-88c1-b00fff6f1458" name="IsStatic" value="false">
+                  <elementDefinition Id="45889e1b-1c1b-4d46-93bd-42971d25728a" />
+                </propertyInstance>
+                <elementDefinition Id="5842d7b4-8051-4a85-89b7-bbb2156e5560" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="ad964b36-005b-44e7-9d6e-80ab737aef13">
+                <propertyInstance Id="f8ee3f41-b273-431b-a2e9-5ed573e55485" name="IsUnsafe" value="false">
+                  <elementDefinition Id="5e109144-8ae3-4890-b79b-82a7e81f66a0" />
+                </propertyInstance>
+                <elementDefinition Id="18bfb0db-a8f8-4cb0-925d-1ff2fbdeb8ae" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e528e05d-68ba-4305-9980-ee7989348703">
+                <propertyInstance Id="9b55ce78-7cb4-4022-90d5-76040942cf63" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="1161dcf9-6b40-4e5c-a7ff-8446b04a9e84" />
+                </propertyInstance>
+                <elementDefinition Id="83ee5ecd-383e-40c0-8cd2-a3b522915f5e" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
         <elementDefinition Id="2bfcc744-77e8-4795-956b-d9b36a7e8788" />
         <suppliersInternal>
           <interfaceRealization Id="6fe5d6d7-a074-40fc-8ea5-c73312ba6ac7">
@@ -187,11 +227,57 @@
         </suppliersInternal>
         <ownedOperationsInternal>
           <operation Id="08241af5-50df-4259-b33c-bc04ff2c98ee" name="PlayMovie" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="7bf05ae8-f29e-4bfe-9e81-89884bad26f7" name="method" profile="CSharpProfile">
+                <elementDefinition Id="6004737d-971b-4fa0-b07c-85c890672a03" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c2379492-f2e7-4c72-bc7b-f07a09b512ca">
+                    <propertyInstance Id="62c7a530-5980-437f-a730-55b1d24725cc" name="ClrAttributes">
+                      <elementDefinition Id="646e8e6c-255b-4b65-868c-093639600667" />
+                    </propertyInstance>
+                    <elementDefinition Id="18a819f0-9fd7-440f-9fd9-bdc7bc28d924" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5408c292-a788-4f88-a207-bc319c23d79b">
+                    <propertyInstance Id="5cc7d24d-9179-4938-9f7f-77e0d1a0bf9d" name="IsPartial" value="false">
+                      <elementDefinition Id="874f31ba-8b4b-4b13-bb3a-cbe812457f09" />
+                    </propertyInstance>
+                    <elementDefinition Id="b2d6ec42-1f59-4db2-88fe-edad3c717be8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a8ae5e5a-f453-445d-a009-a51a19f02676">
+                    <propertyInstance Id="9ac67fb5-b26c-4c46-aba0-4a55692140ef" name="IsUnsafe" value="false">
+                      <elementDefinition Id="aa2aa796-6623-4bf9-88db-3f2016b31aef" />
+                    </propertyInstance>
+                    <elementDefinition Id="cc3f8e0e-2eb2-47cf-9990-542be903304f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bae5c630-762a-46ff-af9d-8d75b056dde4">
+                    <propertyInstance Id="591edde6-cbf2-4fc5-b867-7aa3e0f43ae1" name="Inheritance" value="none">
+                      <elementDefinition Id="861b0e83-756b-4a18-8526-21d41dac06bf" />
+                    </propertyInstance>
+                    <elementDefinition Id="a4af015a-171c-4a44-9710-ebf297e7969c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e33b670b-946e-4105-8895-597bc5310361">
+                    <propertyInstance Id="4412b20b-49ab-4b3c-8e58-aa02fa79e1d9" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d66b4b66-c435-4a33-921c-586192a140ed" />
+                    </propertyInstance>
+                    <elementDefinition Id="35342b4f-794c-4a98-9533-ebade9092f8d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9aeb4e7c-6d8f-454d-9bb7-c0d85b023795">
+                    <propertyInstance Id="b1c2ebd2-dd09-407c-ae16-db5558ad5bfc" name="params" value="false">
+                      <elementDefinition Id="1a273fa6-8388-4755-8105-09885607dd68" />
+                    </propertyInstance>
+                    <elementDefinition Id="8038f06b-fc71-43d3-95a6-d41a47a0efe8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
             <elementDefinition Id="f5dd75d8-4f2d-449b-b7c3-da0b8d102a9c" />
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter Id="797ea069-fcdf-424e-a672-1a2100444db9" name="movieName" direction="In" isUnique="false">
                   <elementDefinition Id="d5a5e82f-b400-4dca-bd07-c029bf788c61" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="657145c9-dc7b-4d55-a015-04e005a87ded" LastKnownName="string" />
+                  </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
@@ -281,8 +367,11 @@
             <elementDefinition Id="8998287c-1d9b-4e73-a1c5-004eff8e362d" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="8e93e3ba-9f4b-4444-bdc8-c248a21e7897" name="movieName" direction="In" isUnique="false">
-                  <elementDefinition Id="b834f8d2-d534-4a80-bca2-505ec1b8b184" />
+                <parameter Id="e740cd36-8c50-4386-8dbe-e1d923032368" name="movieName" direction="In" isUnique="false">
+                  <elementDefinition Id="fc838ec2-9ac1-487b-a73b-3e2287d5ba3b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="657145c9-dc7b-4d55-a015-04e005a87ded" LastKnownName="string" />
+                  </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>

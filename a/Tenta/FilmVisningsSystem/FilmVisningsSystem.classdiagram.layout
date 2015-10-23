@@ -9,11 +9,11 @@
         <OperationElementListCompartment Id="bc15ae25-59f0-47f0-9e5f-6082290ce3c9" absoluteBounds="8.39, 4.85150750686725, 1.4700000000000002, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="fb5c2c52-38c9-4cd3-8fc9-ea7e5ba2e1ac" absoluteBounds="10.625, 4.125, 1.5, 1.0624999801317854" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+    <classShape Id="fb5c2c52-38c9-4cd3-8fc9-ea7e5ba2e1ac" absoluteBounds="10.625, 4.125, 1.5, 1.1878356194496158" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
       <classMoniker Id="0314bb50-7ce5-4e98-8b5c-7afd6b445de6" LastKnownName="Netflix" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="b901d704-c26c-46bd-b1dc-f76bc7cdd4aa" absoluteBounds="10.64, 4.515, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="9c848ad4-304b-4da1-a7e4-a63fb10c3c03" absoluteBounds="10.64, 4.72617186754942, 1.4700000000000002, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="b901d704-c26c-46bd-b1dc-f76bc7cdd4aa" absoluteBounds="10.64, 4.64033563931783, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="9c848ad4-304b-4da1-a7e4-a63fb10c3c03" absoluteBounds="10.64, 4.85150750686725, 1.4700000000000002, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <interfaceShape Id="7aa99723-3580-4e0d-b2df-1dfe2539353f" absoluteBounds="9.375, 1.75, 1.75, 1.250503439108531" hideQualifiedName="false" increaseHeight="0.18800345897674564" customColor="207, 223, 191">

@@ -10,11 +10,11 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
-public class SF : IPlayer
+public class Netflix : IPlayer
 {
 	public virtual void PlayMovie(string movieName)
 	{
-        Debug.WriteLine("Is playing");
+        Debug.WriteLine("NETFLIX IS BEING PLAY");
 	}
 
 }

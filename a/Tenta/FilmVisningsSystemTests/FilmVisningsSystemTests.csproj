@@ -53,6 +53,12 @@
     <Compile Include="FilmFacadeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FilmVisningsSystemLib\FilmVisningsSystemLib.csproj">
+      <Project>{4cd4ab8c-be63-4411-afe7-43434b07b2c3}</Project>
+      <Name>FilmVisningsSystemLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

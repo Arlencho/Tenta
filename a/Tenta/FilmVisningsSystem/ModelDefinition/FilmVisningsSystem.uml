@@ -376,7 +376,14 @@
                   Id="1f4b5aac-e104-41e9-b07c-fae2a6bfd843"
                   name="movieName"
                   direction="In"
-                  isUnique="false" />
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="906491f0-f1bb-4069-bf0b-a4e6a47100dc"
+                      LastKnownName="string"
+                      LastKnownLocation="FilmVisningsSystem.uml" />
+                  </type_NamedElement>
+                </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
@@ -390,6 +397,49 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c65e4cdc-6559-4e18-9157-1766699904d2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="489ed1a1-06ba-4a05-94f7-8c9cfbdbaa3c">
+                <propertyInstance
+                  Id="b4a1cb30-8d03-4997-b452-f1ba5aa62853"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1d2644e-126d-4c4f-9874-c595b0ac6797">
+                <propertyInstance
+                  Id="e3d7e13c-3538-4429-970c-9eac3ecce50b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5842d7b4-8051-4a85-89b7-bbb2156e5560">
+                <propertyInstance
+                  Id="45889e1b-1c1b-4d46-93bd-42971d25728a"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18bfb0db-a8f8-4cb0-925d-1ff2fbdeb8ae">
+                <propertyInstance
+                  Id="5e109144-8ae3-4890-b79b-82a7e81f66a0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="83ee5ecd-383e-40c0-8cd2-a3b522915f5e">
+                <propertyInstance
+                  Id="1161dcf9-6b40-4e5c-a7ff-8446b04a9e84"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
         <suppliersInternal>
           <interfaceRealization
             Id="8f831738-1865-4ad9-9514-eee2fec1d805">
@@ -408,13 +458,70 @@
             isAbstract="false"
             concurrency="Sequential"
             isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6004737d-971b-4fa0-b07c-85c890672a03"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18a819f0-9fd7-440f-9fd9-bdc7bc28d924">
+                    <propertyInstance
+                      Id="646e8e6c-255b-4b65-868c-093639600667"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2d6ec42-1f59-4db2-88fe-edad3c717be8">
+                    <propertyInstance
+                      Id="874f31ba-8b4b-4b13-bb3a-cbe812457f09"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc3f8e0e-2eb2-47cf-9990-542be903304f">
+                    <propertyInstance
+                      Id="aa2aa796-6623-4bf9-88db-3f2016b31aef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4af015a-171c-4a44-9710-ebf297e7969c">
+                    <propertyInstance
+                      Id="861b0e83-756b-4a18-8526-21d41dac06bf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35342b4f-794c-4a98-9533-ebade9092f8d">
+                    <propertyInstance
+                      Id="d66b4b66-c435-4a33-921c-586192a140ed"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8038f06b-fc71-43d3-95a6-d41a47a0efe8">
+                    <propertyInstance
+                      Id="1a273fa6-8388-4755-8105-09885607dd68"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
                   Id="d5a5e82f-b400-4dca-bd07-c029bf788c61"
                   name="movieName"
                   direction="In"
-                  isUnique="false" />
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="906491f0-f1bb-4069-bf0b-a4e6a47100dc"
+                      LastKnownName="string"
+                      LastKnownLocation="FilmVisningsSystem.uml" />
+                  </type_NamedElement>
+                </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
@@ -525,10 +632,17 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="b834f8d2-d534-4a80-bca2-505ec1b8b184"
+                  Id="fc838ec2-9ac1-487b-a73b-3e2287d5ba3b"
                   name="movieName"
                   direction="In"
-                  isUnique="false" />
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="906491f0-f1bb-4069-bf0b-a4e6a47100dc"
+                      LastKnownName="string"
+                      LastKnownLocation="FilmVisningsSystem.uml" />
+                  </type_NamedElement>
+                </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>

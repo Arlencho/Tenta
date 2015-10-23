@@ -44,6 +44,7 @@
     <Compile Include="GeneratedCode\IPlayer.cs" />
     <Compile Include="GeneratedCode\Movie.cs" />
     <Compile Include="GeneratedCode\MovieFacade.cs" />
+    <Compile Include="GeneratedCode\Netflix.cs" />
     <Compile Include="GeneratedCode\PlayerFactory.cs" />
     <Compile Include="GeneratedCode\SF.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

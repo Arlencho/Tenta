@@ -6,6 +6,7 @@
 //------------------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -19,8 +20,8 @@ public class MovieFacade
 
 	public virtual void IsPlaying()
 	{
-		throw new System.NotImplementedException();
-	}
+        Debug.WriteLine("Hello world");
+    }
 
 }
 

@@ -11,7 +11,7 @@ using System.Text;
 
 public interface IPlayer 
 {
-	void PlayMovie(object movieName);
+	void PlayMovie(string movieName);
 
 }
 
